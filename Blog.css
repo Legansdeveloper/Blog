@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=poppinswght@700&display=swap');
 *
-{
-   margin: 0;
-   padding: 0;
-    box-sizi1
+{.
+  
    position: absolute;
     justify-content: center;
     align-items: center;
@@ -15,7 +13,7 @@
    position: relative;
    display: flex;
    align-items: center;
-   gap: 200px;
+   gap: 100px;
    background: #fff;
    
    
@@ -24,7 +22,7 @@
 }
 ol span {
    list-style: none;
-   
+   border-radius: 100%;
 
 
 }
@@ -37,13 +35,14 @@ ol span a
    text-transform: uppercase;
    color: #000000;
    font-size: 25px;
+   transition: 0.5s;
 
 }
    .img 
    {
       position: relative;
       top: 0;
-      left: 0;
+      left: 45%;
       width: 125px;
       height: 125px;
    }
@@ -51,7 +50,9 @@ ol span a
    
   ol span a:hover
     {
-     background-color: salmon;
+     background-color: grey;
+     border-radius: 40px;
+     
    }
    h2
    {
@@ -65,3 +66,21 @@ ol span a
    {
       font-size: 20px;
    }
+   ul li b
+   {
+      font-size: 30px;
+      position: absolute;
+      left: 9px;
+   }
+   ul li p
+   {
+      font-size: 23px;
+      position: absolute;
+      left: 30px;
+   }
+     h1
+     {
+      text-align: center;
+      font-family: fantasy;
+      padding-top: 20px;
+     }
